@@ -1,0 +1,33 @@
+.about_me{
+    margin:80px 160px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.about_me h1{
+    margin: 0px;
+}
+.about_me p{
+    margin: 0px;
+    width: 75%;
+}
+@media only screen and (min-width:200px) and (max-width: 1020px) {
+    .about_me{
+        margin: 0px 25px;
+        margin-top: 350px;
+        margin-bottom: 90px;
+        flex-direction: column;
+        gap: 15px;
+        /* width:100%; */
+        padding: 20px;
+    }
+    .about_me h1{
+       font-size: 20px;
+    }
+    .about_me p{
+        text-align: left;
+
+        font-size: 12px;
+    }
+    
+}
